@@ -1,0 +1,105 @@
+#############################
+# Go Files and Directories
+#############################
+
+# Binaries for Go programs
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Go build artifacts
+*.test
+*.out
+/bin/
+/pkg/
+
+# Go coverage and workspace
+*.coverprofile
+go.work
+
+# Vendor directory (if not committed)
+vendor/
+
+#############################
+# Environment Files
+#############################
+
+.env
+.env.local
+.env.*.local
+
+#############################
+# Logs and Temp Files
+#############################
+
+*.log
+*.tmp
+*.temp
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+#############################
+# IDE and Editor Files
+#############################
+
+# JetBrains IDEs (GoLand, IntelliJ, etc.)
+.idea/
+
+# VSCode
+.vscode/
+
+# Others
+*.swp
+*.bak
+*.orig
+*.sublime-workspace
+*.sublime-project
+
+#############################
+# Node / Frontend Dependencies
+#############################
+
+node_modules/
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+#############################
+# Frontend Build Artifacts
+#############################
+
+dist/
+build/
+out/
+public/build/
+.vite/
+.next/
+.svelte-kit/
+
+# Compiled assets (optional)
+*.js
+*.js.map
+*.css
+*.css.map
+
+#############################
+# System Files
+#############################
+
+.DS_Store       # macOS
+Thumbs.db       # Windows
+# macOS system files
+.AppleDouble
+.LSOverride
+
+# macOS Finder files
+.DS_Store
+._*
+
+# macOS resource fork files
+.Spotlight-V100
+.Trashes
+.VolumeIcon.icns
